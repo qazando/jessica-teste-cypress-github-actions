@@ -1,6 +1,6 @@
 name: Cypress Tests
 
-on: push
+on: merge-request
 
 jobs:
   cypress-run:
