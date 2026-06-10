@@ -9,7 +9,7 @@ describe("Cadastro de usuário", () => {
     cy.visit("/register");
   });
 
-  it.only("Cadastro de usuário acessando pela home", () => {
+  it.only("Cadastro de usuário acessando pela home page", () => {
     const firstName = faker.person.firstName();
     const lastName = faker.person.lastName();
 
